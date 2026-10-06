@@ -7,6 +7,8 @@
 | **macOS**                   | Tahoe 26.6.2|
 | **Apple**                   | M1 Pro 16 GB|
 
+# Potreban je NumPy ≥ 2.0
+# scipy
 
 https://github.com/forsing
 https://github.com/forsing?tab=repositories
