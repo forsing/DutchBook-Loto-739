@@ -2,7 +2,7 @@
 # scipy
 
 
-
+ 
 import argparse
 import csv
 import itertools
@@ -242,9 +242,9 @@ def main():
     parser.add_argument(
         "csv",
         nargs="?",
-        default="/Users/4c/Desktop/GHQ/data/loto7_4696_k79.csv",
-        # default="/Users/4c/Desktop/GHQ/data/loto7_4696_k79_loto_2970.csv",
-        # default="/Users/4c/Desktop/GHQ/data/loto7_4696_k79_loto_plus_1726.csv",
+        default="/data/loto7_4696_k79.csv",
+        # default="/data/loto7_4696_k79_loto_2970.csv",
+        # default="/data/loto7_4696_k79_loto_plus_1726.csv",
     )
 
     parser.add_argument(
@@ -289,7 +289,7 @@ Red zavisnosti 4: provera log P = -16.554044697
 Uniformna referenca: -16.548639443
 Red zavisnosti: 2; svih 4696 izvlačenja; pregled 15380937 kombinacija.
 
-NEXT: 7 8 11 23 26 33 34
+NEXT: 7 x 11 y 26 z 34
 Verovatnoća po modelu: 7.00545152164e-08
 Broj jednakih maksimuma: 1
 
@@ -303,7 +303,7 @@ Red zavisnosti 4: provera log P = -16.556434796
 Uniformna referenca: -16.548639443
 Red zavisnosti: 2; svih 2970 izvlačenja; pregled 15380937 kombinacija.
 
-NEXT: 5 8 16 22 23 28 33
+NEXT: 5 x 16 y 23 z 33
 Verovatnoća po modelu: 7.02649332543e-08
 Broj jednakih maksimuma: 1
 
@@ -317,7 +317,7 @@ Red zavisnosti 4: provera log P = -16.560991897
 Uniformna referenca: -16.548639443
 Red zavisnosti: 2; svih 1726 izvlačenja; pregled 15380937 kombinacija.
 
-NEXT: 2 7 8 11 23 29 37
+NEXT: 2 x 8 y 23 z 37
 Verovatnoća po modelu: 7.17178177904e-08
 Broj jednakih maksimuma: 1
 """
